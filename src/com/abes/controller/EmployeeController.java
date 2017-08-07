@@ -19,6 +19,11 @@ public class EmployeeController {
 		e3.setEmpName("John");
 		e3.setSalary(35000);
 		
+		Employee e4 = new Employee();
+		e3.setEmpId(111);
+		e3.setEmpName("aditya");
+		e3.setSalary(350000);
+		
 		EmpDAO e11 = new EmpDAO();
 		int s=e11.required(e1);
 		if(s>0){
